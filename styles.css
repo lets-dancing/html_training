@@ -1,0 +1,24 @@
+body {
+    background-color: ivory;
+}
+h1 {
+    color: rgb(16, 14, 143);
+    font-size: 30px;
+}
+
+table {
+    border: black 1px dashed; width: 20%; background-color: aqua; text-align: center;
+}
+hr {
+    border: 3px slateblue solid;
+}
+
+th {
+    border: indigo groove 3px;
+}
+td {
+    border: olive outset 5px; background-color: aquamarine;
+}
+.space {
+    margin-left: 60px;
+}
