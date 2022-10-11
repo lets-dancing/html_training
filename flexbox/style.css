@@ -1,0 +1,41 @@
+nav {
+    background-color: hotpink;
+}
+body {
+    background-color: turquoise;
+}
+.parent {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.box {
+    margin-right: auto;
+}
+.menu {
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: aliceblue;
+}
+/* Средний экран до 800px */
+@media all and (max-width: 800px) {
+    body {
+        background-color: grey;
+    }
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Маленький экран до 500px */
+@media all and (max-width: 500px) {
+    body {
+        background-color: pink;
+    }
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+}
