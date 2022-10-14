@@ -1,0 +1,112 @@
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+}
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 100px;
+    margin-top:17%;
+}
+body {
+    background-color: #ffffd2;
+}
+.text_1{
+    text-align: center;
+    color: #a8d8ea;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+.text_2 {
+    text-align: center;
+    color:#aa96da;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+.unit {
+    background-color: pink;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+}
+.ul {
+    background-color:#ffffd2;
+    color: #7c7575;
+    font-size: 20px;
+}
+.img {
+    width: 300px;
+}
+.name {
+    text-align: center;
+    color:#52616b;
+    font-family: 'Montserrat', sans-serif;
+}
+.price {
+    text-align: center;
+    color:#52616b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+del {
+    background-color: #fbb;
+}
+ins {
+    display: inline-block;
+    transform: rotate(-7deg);
+    text-decoration: none;
+}
+.no_rot {
+    display: inline-block;
+    transform: rotate(0);
+}
+.btn {
+    background-color: #aa96da;
+    color: #ffffd2;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+}
+.space {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+/* Средний экран */
+@media (max-width: 800px) {
+    .fullscreen-bg {
+        background: url('скрин.jpg') center center / cover no-repeat;
+    }
+    .fullscreen-bg__video {
+        display: none;
+    }
+    .overlay h1 {
+        font-size: 30px;
+    }
+}

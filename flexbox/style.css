@@ -38,4 +38,47 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .flat {
+        display: flex;
+        flex-direction: column;
+    }
+    p {
+        display: flex;
+        
+    }
+    img {
+        width: max-content;
+    }
+}
+h1 {
+    align-self: center;
+    padding: 20px;
+}
+h1, p {
+    text-transform: uppercase;
+    color: #ec4646;
+}
+p {
+    font-size: 30px;
+    margin-left: 300px;
+}
+del {
+    background-color: #d6b0b1;
+    display: inline-block;
+    transform: rotate(10deg);
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid black;
+}
+    
+ins {
+    background-color: #fce38a;
+    display: inline-block;
+    transform: rotate(-20deg);
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid black;
+}
+.flat {
+    display: flex;
 }
