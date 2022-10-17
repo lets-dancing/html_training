@@ -89,6 +89,9 @@ ins {
     padding: 10px;
     border-radius: 10px;
 }
+.btn:hover {
+    background-color: aquamarine;
+}
 .space {
     display: flex;
     flex-direction: row;
